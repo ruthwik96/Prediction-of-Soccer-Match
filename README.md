@@ -1,7 +1,32 @@
-In this project, we harnessed the power of data mining techniques using RStudio to delve into the intricate world of soccer analytics. Our journey began with comprehensive data exploration and cleansing, drawing from the rich European Soccer Database on Kaggle.com spanning seasons from 2008 to 2016. We navigated through seven tables encompassing player and team attributes, match details, and even betting odds.
+Title: Soccer Match Prediction using Data Mining Techniques
 
-Our objectives ranged from fundamental soccer analysis to predicting match outcomes based on betting odds and uncovering key factors determining player and team excellence. The clustering results, particularly in team analysis, provided valuable insights into distinct clusters within teams, shedding light on shared characteristics and dynamics. This segmentation lays the groundwork for strategic interventions to optimize team effectiveness.
+Authors: Ruthwik Nadam, Johnathon Kulich, Dang Huu Thien Nguyen (Thomas)
 
-In conclusion, this project represents a pioneering effort to bridge the theoretical realm of soccer analytics with real-world implementation. By showcasing the potential of data mining techniques, we aimed to empower enthusiasts, analysts, and soccer aficionados with tools to make informed predictions, unravel trends, and deepen understanding of the myriad factors influencing match results. As we look forward, we are eager to explore additional techniques, leveraging RStudio's flexibility to modify processes and enhance results. The journey continues, and we are excited to evolve this project, contributing to the evolving landscape of soccer analytics.
+Summary:
+This project leverages data mining techniques to predict various aspects of soccer matches, including match outcomes based on betting odds, player performance, and team clustering. The dataset used is sourced from the European Soccer Database on Kaggle, covering seasons from 2008 to 2016. The primary goals include identifying key variables for predicting player and team performance, comparing decision tree and Naïve Bayes models for match outcome predictions, and conducting k-means clustering on team attributes.
 
-The data file can be found at https://www.kaggle.com/datasets/hugomathien/soccer
+Key Sections:
+Problem Statement: Addresses the need to predict soccer match outcomes and understand critical factors influencing player and team performance.
+
+Introduction:
+
+Data Sources: Describes the European Soccer Database and its seven tables, detailing information about matches, players, teams, and more.
+Data Cleaning and Transformation: Highlights the process of merging tables, handling null values, and shuffling data for effective modeling.
+Descriptive Statistics: Provides visualizations and statistical tests to analyze match results, disproving or validating common beliefs in soccer.
+Modeling:
+
+Variable Selection: Selects significant variables for different player positions using the Player_Attributes table.
+Decision Tree: Builds decision tree models for match outcome predictions based on betting odds from various providers.
+Naïve Bayes: Utilizes Naïve Bayes models to compare accuracy with decision tree models.
+Clustering: Applies k-means clustering on Team_Attributes to identify distinct team clusters.
+Results:
+
+Decision Tree Results: Shows the accuracy of decision tree models for different betting providers.
+Naïve Bayes Results: Compares the accuracy of Naïve Bayes models with decision tree models.
+Model Comparison: Concludes that decision tree models outperform Naïve Bayes models for match outcome predictions.
+Clustering Results: Illustrates team clustering results and insights.
+Conclusion: Summarizes the project's objectives, emphasizing the potential of data mining techniques in predicting soccer outcomes and showcasing future directions for improvement.
+
+References: Cites relevant sources and references for datasets and methodologies.
+
+The project aims to bridge the gap between theoretical knowledge and real-world implementation in soccer predictions, providing valuable insights for enthusiasts, analysts, and decision-makers.
